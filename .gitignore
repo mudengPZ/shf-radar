@@ -15,3 +15,7 @@ Thumbs.db
 *.log
 tools/state.slim.json
 tools/state.slim.b64
+
+# 临时令牌文件，绝不提交
+.gh_token
+tools/wait_auth.py
