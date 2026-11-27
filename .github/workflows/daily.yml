@@ -63,6 +63,8 @@ jobs:
             echo "数据无变化"
           else
             git commit -m "chore: 行情刷新 $(date -u +%F) [skip ci]"
+            # 抓取期间可能有人推了代码，先 rebase 再推，避免 non-fast-forward 失败
+            git pull --rebase --autostash origin main || true
             git push
           fi
 
