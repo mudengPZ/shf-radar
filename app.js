@@ -1,5 +1,5 @@
 /* =====================================================================
-   SHF 猎手 · 假面骑士比价（演示版）
+   SHF 猎手 · 假面骑士比价
    无框架、无构建。数据来自 data.js：真实抓取条目（live=true）与参考样本混合，
    匹配与比价逻辑在前端完成，
    规则与后端 shf-price 的 PriceCompareService 保持一致：
@@ -293,7 +293,7 @@
               <span>${esc(it.condition)}</span>
               ${it.wantCount ? `<span>${it.wantCount} 想要</span>` : ''}
               <a class="go" href="${itemHref(it, m)}" target="_blank" rel="noopener"
-                 title="${it.itemUrl ? '已登记真实商品链接' : '离线样本报价，暂无真实商品页，将按完整型号名精确搜索'}">${itemLabel(it)}</a>
+                 title="${it.itemUrl ? '已登记真实商品链接' : '参考价：暂无真实商品页，将按完整型号名精确搜索'}">${itemLabel(it)}</a>
             </div>
           </div>
         </div>`;
