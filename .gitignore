@@ -1,0 +1,15 @@
+# 浏览器登录态与本地缓存，绝不提交
+tools/chrome-profile/
+tools/state.json
+tools/state.b64
+tools/dump/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 系统与工具
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SHF 猎手 · 平成 20 主骑比价</title>
+<meta name="description" content="平成 20 位假面骑士主骑的 S.H.Figuarts 与真骨雕制法全网比价：输入骑士名，一次看淘宝、天猫、闲鱼三个平台的价钱，正版最低价直接给。">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <span class="nm">SHF 猎手</span>
+      <span class="tg">平成 20 主骑</span>
+      <span class="sub">S.H.Figuarts &amp; 真骨雕制法 · 三平台比价</span>
+    </div>
+    <div class="acct-area">
+      <button class="acct-btn" id="acctBtn" type="button">登录 / 注册</button>
+      <span class="top-note mono">离线样本 · 2026-11</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- 首屏 -->
+  <section class="hero" id="hero">
+    <h1>同一只假面骑士，<br>三个平台价差可以<em>差一倍</em>。</h1>
+    <p>
+      同一条空我 55th：淘宝全新标 559，天猫官方店 530，闲鱼二手 515，还夹着 90 块的 KO 版混在里面。
+      输入骑士名，一次拿回三个平台的在售信息，<b>直接告诉你正版里最便宜的那一只</b>。
+    </p>
+
+    <div class="search-row">
+      <input class="input" id="kw" placeholder="输入骑士或型号，例如：空我 / 真骨雕 W / Faiz / Kabuto / OOO"
+             autocomplete="off" spellcheck="false">
+      <button class="btn accent" id="btnSearch">搜全网最低价</button>
+    </div>
+
+    <div class="hot">
+      <span class="hot-lb">试试</span>
+      <button class="hot-chip" data-hot="空我">空我</button>
+      <button class="hot-chip" data-hot="AgitΩ">AgitΩ</button>
+      <button class="hot-chip" data-hot="龙骑">龙骑</button>
+      <button class="hot-chip" data-hot="Faiz">Faiz</button>
+      <button class="hot-chip" data-hot="Kabuto">Kabuto</button>
+      <button class="hot-chip" data-hot="电王">电王</button>
+      <button class="hot-chip" data-hot="W">W</button>
+      <button class="hot-chip" data-hot="OOO">OOO</button>
+      <button class="hot-chip" data-hot="铠武">铠武</button>
+      <button class="hot-chip" data-hot="Build">Build</button>
+      <button class="hot-chip" data-hot="Zi-O">Zi-O</button>
+    </div>
+
+    <div class="filters">
+      <div class="fgroup">
+        <span class="lb">系列</span>
+        <button class="chip on" data-line="ALL">全部</button>
+        <button class="chip" data-line="真骨雕">真骨雕制法</button>
+        <button class="chip" data-line="SHF">普通 SHF</button>
+      </div>
+      <div class="fgroup">
+        <span class="lb">平台</span>
+        <button class="chip on" data-pf="TAOBAO">淘宝</button>
+        <button class="chip on" data-pf="TMALL">天猫</button>
+        <button class="chip on" data-pf="XIANYU">闲鱼</button>
+      </div>
+      <div class="fgroup">
+        <span class="lb">成色</span>
+        <button class="chip on" data-cond="ANY">不限</button>
+        <button class="chip" data-cond="NEW">只看全新</button>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div><b>20</b>位平成主骑</div>
+      <div><b>73</b>个版本（真骨雕 42 + SHF 31）</div>
+      <div id="statQuotes"><b>379</b>条三平台报价</div>
+      <div><b>37</b>款官方定价已核实</div>
+      <div><b>0</b>步强制登录</div>
+    </div>
+  </section>
+
+  <!-- 结果 -->
+  <section id="out"></section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div style="flex:1">
+      <b>这是什么</b>　平成 20 位假面骑士主骑的 SHF 比价工具<b>可公开访问演示版</b>。打开即可查价，
+      注册登录为可选项，不登录不影响任何比价功能。
+      比价规则与完整版一致：正版优先、KO 版单独标红、到手价按「价格 + 运费」计算。
+      <br><b>账号说明</b>　演示站顶栏提供注册 / 登录入口，账号仅保存在当前浏览器的本地存储中，
+      不上传服务器、不跨设备同步、不用于真实身份认证；因此换一台设备打开仍能直接查价。
+      订阅与降价提醒由完整工程的 account 服务与 JWT 提供，本演示站不启用该链路。
+    </div>
+    <div style="max-width:560px">
+      <b>产品线说明</b>　平成 20 主骑里<b>只有 13 位出过真骨雕</b>：剑、Fourze、Drive、Ghost、Ex-Aid、
+      Build、Zi-O 这 7 位万代至今没做真骨雕，页面上只记普通 SHF，不会凭空编一个真骨雕出来。
+      <br>
+      <b>数据说明</b>　型号名、作品与版本来自万代公开资料；官方定价中<b>有 37 款为公开页面核实值</b>
+      （OOO 全 10 款联组 6,600–9,900、空我 55th 9,900 / 8,800、旧 1 号 7,700、Kiva 7,700、
+      铠武 阵羽柠檬 13,750、Ghost 无限魂 13,200（2027 首次发售）、剑 3,800、Fourze 2,800、Wizard 8,030 等），其余按同期同产品线价格带推算，页面上标注了「推算」。
+      <span id="liveNote">各平台挂单价为<b>参考样本</b>：官方定价折人民币 × 热度系数 × 平台系数生成，
+      生成规则见 <span class="mono">gen_data.py</span>，可重跑复现。</span>
+      有官方商品页的型号可点「查看官方商品页」直达；标「商品页」的为已登记真实链接，
+      标「搜同款」的会按完整型号名打开平台精确搜索，能看到当下实际挂价。
+      <b>关于实物图</b>　已有 <b>9 款</b>配了可核查来源的商品主图（万代魂官网与 Hpoi 商品页，逐款来源见 <span class="mono">models/sources.csv</span>）；
+      其余型号显示型号名文字占位封面，不以生成图冒充实物照片，图片加载失败也会自动回退。
+    </div>
+  </div>
+</footer>
+
+<!-- 可选账号：注册 / 登录（演示用，不阻塞查价） -->
+<div class="modal" id="acctModal" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="acctTitle">
+    <button class="modal-x" id="acctClose" type="button" aria-label="关闭">×</button>
+    <h2 id="acctTitle">账号</h2>
+    <div class="tabs" id="acctTabs">
+      <button class="tab on" data-tab="login" type="button">登录</button>
+      <button class="tab" data-tab="register" type="button">注册</button>
+    </div>
+    <form id="acctForm" novalidate>
+      <label for="acctUser">用户名</label>
+      <input id="acctUser" type="text" autocomplete="username" placeholder="2–20 位中英文或数字">
+      <label for="acctPwd">密码</label>
+      <input id="acctPwd" type="password" autocomplete="current-password" placeholder="至少 6 位">
+      <div id="acctPwd2Row" hidden>
+        <label for="acctPwd2">确认密码</label>
+        <input id="acctPwd2" type="password" autocomplete="new-password" placeholder="再输入一次">
+      </div>
+      <button class="btn accent acct-submit" id="acctSubmit" type="submit">登录</button>
+      <div class="acct-msg" id="acctMsg" role="status"></div>
+    </form>
+    <div class="acct-logged" id="acctLogged" hidden>
+      <p>当前登录：<b id="acctWho"></b></p>
+      <button class="btn" id="acctLogout" type="button">退出登录</button>
+      <div class="acct-msg" id="acctMsg2" role="status"></div>
+    </div>
+    <p class="acct-note">
+      演示账号仅保存在当前浏览器本地，不上传服务器、不跨设备同步，也不用于真实身份认证。
+      <b>未登录也可完整查价</b>；订阅与降价提醒由完整工程的 account 服务 + JWT 提供，本演示站不启用。
+    </p>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

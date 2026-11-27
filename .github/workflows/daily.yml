@@ -1,0 +1,88 @@
+name: 每日行情刷新与发布
+
+# 每天北京时间 06:10 抓一次真实在售，更新数据后自动发布到 GitHub Pages
+on:
+  schedule:
+    - cron: '10 22 * * *'      # UTC 22:10 = 次日 06:10（东八区）
+  workflow_dispatch:            # 也可以在网页上手动点一下
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: 安装依赖
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: 还原闲鱼登录态
+        env:
+          XIANYU_STATE: ${{ secrets.XIANYU_STATE }}
+        run: |
+          if [ -n "$XIANYU_STATE" ]; then
+            mkdir -p tools
+            printf '%s' "$XIANYU_STATE" | base64 -d > tools/state.json
+            echo "登录态已还原（$(wc -c < tools/state.json) 字节）"
+          else
+            echo "::warning title=缺少登录态::未配置 XIANYU_STATE，本次不抓取，沿用上一版数据"
+          fi
+
+      - name: 抓取真实在售
+        run: |
+          if [ -f tools/state.json ]; then
+            python tools/fetch_live.py --all --headless --gap 3 || echo "抓取异常，继续用上一版数据"
+          else
+            echo "跳过抓取"
+          fi
+
+      - name: 生成 data.js
+        run: python gen_data.py
+
+      - name: 提交数据变更
+        run: |
+          git config user.name  "shf-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data.js live_prices.json models/live 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "数据无变化"
+          else
+            git commit -m "chore: 行情刷新 $(date -u +%F) [skip ci]"
+            git push
+          fi
+
+      - name: 组装站点
+        run: |
+          mkdir -p _site
+          cp -r index.html app.js styles.css data.js models _site/
+          # 抓取器与登录态不进产物
+          rm -rf _site/tools _site/__pycache__
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
