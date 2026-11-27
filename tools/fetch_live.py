@@ -90,9 +90,20 @@ def load_models():
 
 
 def search_keyword(model):
+    """闲鱼按综合排序，词太短会被同骑士的其它形态稀释，所以带上形态名更聚焦。
+    例：铠武 阵羽 真骨雕 / 空我 全能 真骨雕 / 龙骑 真骨雕"""
     line = model.get("line") or ""
     rider = model["name"].replace("假面骑士", "").strip().split(" ")[0]
-    return rider + (" 真骨雕" if line == "真骨雕" else " shf")
+    short = (model.get("short") or "").strip()
+    if not re.search(r"[\u4e00-\u9fff]", rider):
+        cn = next((a for a in (model.get("alias") or [])
+                   if re.search(r"[\u4e00-\u9fff]", a)), None)
+        if cn:
+            rider = cn
+    tail = " 真骨雕" if line == "真骨雕" else " shf"
+    if short and short != rider and len(short) >= 2:
+        return "%s %s%s" % (rider, short, tail)
+    return rider + tail
 
 
 def parse_price(v):
@@ -162,8 +173,13 @@ def is_target(row, model):
     tnorm = t.replace(" ", "")
     if not ((short and short in tnorm) or (core and core in tnorm)):
         return False
-    if not ("shf" in low or "figuarts" in low or "真骨雕" in t or "真骨彫" in t):
-        return False
+    if model.get("line") == "真骨雕":
+        # 真骨雕型号必须明确写出来，否则会把旧版 SHF 同名装甲算进来
+        if not ("真骨雕" in t or "真骨彫" in t or "shinkocchou" in low):
+            return False
+    else:
+        if "shf" not in low and "figuarts" not in low:
+            return False
     return True
 
 
