@@ -360,11 +360,33 @@ def do_all(p, keys=None, limit=None, headless=False, gap=2.5, wait_ms=2600):
         print("\n本次 0 条（多半是登录态失效或触发风控），保留上一版 live_prices.json 不覆盖")
         return
 
+    # 单次抓取有随机性：某个型号这次翻页没翻到，不代表它下架了。
+    # 直接把整个文件覆盖，会让昨天的真实报价凭空消失，所以按型号做增量：
+    # 本次抓到的以本次为准，本次没抓到的沿用上一版，并标 carriedFrom。
+    prev_items, prev_at = [], None
+    if OUT.exists():
+        try:
+            prev = json.loads(OUT.read_text(encoding="utf-8"))
+            prev_at = prev.get("fetchedAt")
+            prev_items = prev.get("items", [])
+        except Exception:
+            prev_items = []
+
+    scope = {m["key"] for m in models}
+    fresh_keys = {x["modelKey"] for x in items}
+    carried = [dict(x, carriedFrom=prev_at) for x in prev_items
+               if x.get("modelKey") in scope and x.get("modelKey") not in fresh_keys]
+    merged = items + carried
+    if carried:
+        missing = len({c["modelKey"] for c in carried})
+        print("\n%d 个型号本次未抓到，沿用 %s 的旧数据（标 carriedFrom）" % (missing, prev_at))
+
     OUT.write_text(json.dumps({
         "fetchedAt": fetched_at,
         "source": "XIANYU",
         "keywordMode": "per-model",
-        "items": items,
+        "carried": len(carried),
+        "items": merged,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
 
     ok = sum(1 for _, _, h in stats if h)

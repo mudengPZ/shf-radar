@@ -509,6 +509,7 @@ def merge_live(models, items):
         "fetchedAt": data.get("fetchedAt") or "",
         "count": len(live),
         "models": len(got),
+        "carried": data.get("carried") or 0,
         "platforms": sorted({x["platform"] for x in live}),
         "source": data.get("source") or "",
     }

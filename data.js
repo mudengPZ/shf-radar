@@ -6382,7 +6382,7 @@ const ITEMS = [
 ];
 
 /* 真实抓取元信息；null 表示当前全部为参考样本 */
-const LIVE_META = {"fetchedAt": "2026-11-27 15:33", "count": 73, "models": 18, "platforms": ["XIANYU"], "source": "XIANYU"};
+const LIVE_META = {"fetchedAt": "2026-11-27 15:33", "count": 73, "models": 18, "carried": 0, "platforms": ["XIANYU"], "source": "XIANYU"};
 
 /* 平台跳转：有真实商品页时直达商品，没有时按完整型号名做精确搜索。
    演示站的报价是离线样本，不含真实商品 ID，故不伪造商品详情链接。 */

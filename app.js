@@ -636,12 +636,16 @@
     }
     if (!el) return;
     if (meta && meta.count) {
+      const carried = meta.carried || 0;
       el.innerHTML =
         '其中 <b>' + meta.models + ' 个型号 / ' + meta.count + ' 条</b>为' +
         (meta.platforms && meta.platforms.length
           ? meta.platforms.map(p => PLATFORM_CN[p] || p).join('、') : '平台') +
-        '实时在售（抓取于 ' + esc(meta.fetchedAt) + '，点开即真实商品页），标「实时在售」；' +
-        '其余型号暂无整只在售，标「参考价」，为按行情推算的样本。';
+        '实时在售（最近抓取 ' + esc(meta.fetchedAt) + '，点开即真实商品页），标「实时在售」；' +
+        '其余型号暂无整只在售，标「参考价」，为按行情推算的样本。' +
+        (carried > 0
+          ? '<br>另有 <b>' + carried + '</b> 条为上次抓取沿用的在售记录（该型号本轮未搜到整只商品，不清空）。'
+          : '');
     }
   }
 
