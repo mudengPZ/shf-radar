@@ -1,56 +1,9 @@
 {
- "fetchedAt": "2026-11-27 15:33",
+ "fetchedAt": "2026-11-27 08:19",
  "source": "XIANYU",
  "keywordMode": "per-model",
+ "carried": 19,
  "items": [
-  {
-   "modelKey": "kuuga-mighty-55",
-   "platform": "XIANYU",
-   "title": "万代SHF真骨雕假面骑士空我50周年纪念版 全能形态 全新未 拆  代理版爽快包邮  发出后不退不换 考虑清楚再拍不保物流运损 可补差发顺丰 包邮默认普快",
-   "price": 510,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "情的模玩小店",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1044003484031",
-   "area": "广东",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1044003484031.jpg"
-  },
-  {
-   "modelKey": "kuuga-dragon-55",
-   "platform": "XIANYU",
-   "title": "万代 真骨雕 升华青龙空我 全新未拆封 默认顺丰到付 全新商品售出不退不换 不包中奖",
-   "price": 599,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "芽衣我又饿了",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1087902153444",
-   "area": "广东",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1087902153444.jpg"
-  },
-  {
-   "modelKey": "kuuga-pegasus-55",
-   "platform": "XIANYU",
-   "title": "真骨雕空我天马 假面骑士空我 天马形态，全配无损，顺丰到付 感兴趣的话点“我想要”和我私聊吧～",
-   "price": 410,
-   "shipping": 0,
-   "condition": "二手",
-   "official": true,
-   "shopName": "高颜值香菇",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1069973497096",
-   "area": "广东",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1069973497096.jpg"
-  },
   {
    "modelKey": "kuuga-titan-55",
    "platform": "XIANYU",
@@ -64,24 +17,8 @@
    "itemUrl": "https://www.goofish.com/item?id=1085940403917",
    "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1085940403917.jpg"
-  },
-  {
-   "modelKey": "kuuga-shf-mighty",
-   "platform": "XIANYU",
-   "title": "万代SHF真骨雕假面骑士空我50周年纪念版 全能形态 全新未 拆  代理版爽快包邮  发出后不退不换 考虑清楚再拍不保物流运损 可补差发顺丰 包邮默认普快",
-   "price": 510,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "情的模玩小店",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1044003484031",
-   "area": "广东",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1044003484031.jpg"
   },
   {
    "modelKey": "kuuga-shf-mighty",
@@ -96,8 +33,56 @@
    "itemUrl": "https://www.goofish.com/item?id=1081190670232",
    "area": "湖南",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1081190670232.jpg"
+  },
+  {
+   "modelKey": "kuuga-shf-mighty",
+   "platform": "XIANYU",
+   "title": "万代 日版  Shf 假面骑士空我 全能升华空我 1.0 全配无损 包邮到家 个人卖家，售出后无售后不退不换 请谅解",
+   "price": 148,
+   "shipping": 0,
+   "condition": "二手",
+   "official": true,
+   "shopName": "知曲特摄",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1086585585979",
+   "area": "江西",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1086585585979.jpg"
+  },
+  {
+   "modelKey": "kuuga-shf-mighty",
+   "platform": "XIANYU",
+   "title": "万代SHF真骨雕假面骑士空我50周年纪念版 全能形态 全新未 拆  代理版爽快包邮  发出后不退不换 考虑清楚再拍不保物流运损 可补差发顺丰 包邮默认普快",
+   "price": 510,
+   "shipping": 0,
+   "condition": "全新",
+   "official": true,
+   "shopName": "情的模玩小店",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1044003484031",
+   "area": "广东",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1044003484031.jpg"
+  },
+  {
+   "modelKey": "kuuga-shf-mighty",
+   "platform": "XIANYU",
+   "title": "万代SHF真骨雕假面骑士空我全能形态 50年头雕有瑕 ，小野寺下半身，tnt胸，右腿裂已经断了需要补关节",
+   "price": 199,
+   "shipping": 0,
+   "condition": "二手",
+   "official": true,
+   "shopName": "帅的很依旧",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1101478879299",
+   "area": "福建",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1101478879299.jpg"
   },
   {
    "modelKey": "agito-ground",
@@ -112,7 +97,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1099790767559",
    "area": "重庆",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1099790767559.jpg"
   },
   {
@@ -128,7 +113,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1088635621226",
    "area": "上海",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1088635621226.jpg"
   },
   {
@@ -144,7 +129,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1047107485689",
    "area": "上海",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1047107485689.jpg"
   },
   {
@@ -160,40 +145,56 @@
    "itemUrl": "https://www.goofish.com/item?id=1088635621226",
    "area": "上海",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1088635621226.jpg"
-  },
-  {
-   "modelKey": "agito-trinity",
-   "platform": "XIANYU",
-   "title": "全新 万代 SHF 真骨雕 假面骑士亚极陀 三位一体 顺丰到付 售出不退换 不出盒控",
-   "price": 468,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "小斌斌鸭",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1066658793580",
-   "area": "上海",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1066658793580.jpg"
   },
   {
    "modelKey": "agito-shf",
    "platform": "XIANYU",
-   "title": "仅拆99新25周年再版亚极陀真骨雕shf,亚极陀真骨雕SHF ,亚极陀真骨雕shf，不包官瑕中奖，流水线玩具不是艺术品，避免争议默认有瑕疵烂盒，变幻变换变化圆环，借词：万代正版假面骑士津上翔一 燃烧 闪耀 暴风 疾风 烈",
-   "price": 385,
+   "title": "[火]手艺小哥亚极陀修复方案出炉！ [红圆]标价为不换头包膜修复价格 国产KO SHF亚极陀真骨雕假面骑士大地形态手办 [1]一共有三种修复方案： 1、自寄素体纯手工修复   106（包寄回） 2、包膜素体＋手艺修复  ",
+   "price": 180,
    "shipping": 0,
-   "condition": "仅开封",
-   "official": true,
-   "shopName": "梦比优斯",
+   "condition": "二手",
+   "official": false,
+   "shopName": "蒙奇D丸子",
    "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1088635621226",
-   "area": "上海",
+   "itemUrl": "https://www.goofish.com/item?id=1024620632894",
+   "area": "湖南",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1088635621226.jpg"
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1024620632894.jpg"
+  },
+  {
+   "modelKey": "ryuki-base",
+   "platform": "XIANYU",
+   "title": "全新 假面骑士龙骑真骨雕 全新未拆爽快包邮",
+   "price": 580,
+   "shipping": 0,
+   "condition": "全新",
+   "official": true,
+   "shopName": "影子2521",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1102712497760",
+   "area": "辽宁",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1102712497760.jpg"
+  },
+  {
+   "modelKey": "ryuki-base",
+   "platform": "XIANYU",
+   "title": "（顺丰包邮）现货万代 SHF 龙骑 基础形态 真骨雕 平成假 面骑士 城户真司 手办不经我手，默认盒损，顺丰包邮平台直发只包全新未拆，中奖自负售出不退不换，拒绝到手刀",
+   "price": 585,
+   "shipping": 0,
+   "condition": "全新",
+   "official": true,
+   "shopName": "Atopos",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1101479519799",
+   "area": "云南",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1101479519799.jpg"
   },
   {
    "modelKey": "ryuki-base",
@@ -208,40 +209,8 @@
    "itemUrl": "https://www.goofish.com/item?id=1015016346070",
    "area": "重庆",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1015016346070.jpg"
-  },
-  {
-   "modelKey": "ryuki-base",
-   "platform": "XIANYU",
-   "title": "全新 假面骑士龙骑真骨雕 全新未拆，雪梨纸未撕爽快包邮",
-   "price": 590,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "影子2521",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1103532033187",
-   "area": "辽宁",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1103532033187.jpg"
-  },
-  {
-   "modelKey": "ryuki-base",
-   "platform": "XIANYU",
-   "title": "顺丰包邮 万代 SHF 龙骑 真骨雕 假面骑士龙骑 基础形态 全新现货日版港版代理版随机发，可指定有就发全新未拆封，不包带雪梨纸顺丰包邮，福建发货，不包偏远地区不刀，盒况良好，不出盒控三无号勿扰拍下发货前会拍视频确认，确",
-   "price": 578,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "繁花入梦",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1099521102742",
-   "area": "福建",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1099521102742.jpg"
   },
   {
    "modelKey": "ryuki-base",
@@ -256,24 +225,40 @@
    "itemUrl": "https://www.goofish.com/item?id=1101956218848",
    "area": "浙江",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1101956218848.jpg"
   },
   {
    "modelKey": "ryuki-base",
    "platform": "XIANYU",
-   "title": "万代假面骑士真骨雕龙骑，初版日版，全配无损拆摆，下单后会拍摄 整体视频，指哪拍哪，默认盒损，售出不退不换，不出三无号。顺丰到付或广州三号线龙归地铁站附近自提",
-   "price": 520,
+   "title": "顺丰包邮 万代 SHF 龙骑 真骨雕 假面骑士龙骑 基础形态 全新现货日版港版代理版随机发，可指定有就发全新未拆封，不包带雪梨纸顺丰包邮，福建发货，不包偏远地区不刀，盒况良好，不出盒控三无号勿扰拍下发货前会拍视频确认，确",
+   "price": 578,
    "shipping": 0,
-   "condition": "二手",
+   "condition": "全新",
    "official": true,
-   "shopName": "爱吃煎堆",
+   "shopName": "繁花入梦",
    "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1104600608090",
-   "area": "广东",
+   "itemUrl": "https://www.goofish.com/item?id=1099521102742",
+   "area": "福建",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1104600608090.jpg"
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1099521102742.jpg"
+  },
+  {
+   "modelKey": "ryuki-base",
+   "platform": "XIANYU",
+   "title": "包邮普快 万代真骨雕假面骑士龙骑，日版，1/12比例。仅拆腰 膜还在，关节紧实。全配无损 卡片无拆普快包邮",
+   "price": 545,
+   "shipping": 0,
+   "condition": "仅开封",
+   "official": true,
+   "shopName": "东方美美的翻车鱼",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1102885985768",
+   "area": "山西",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1102885985768.jpg"
   },
   {
    "modelKey": "ryuki-base",
@@ -288,8 +273,24 @@
    "itemUrl": "https://www.goofish.com/item?id=1104388752763",
    "area": "湖北",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1104388752763.jpg"
+  },
+  {
+   "modelKey": "ryuki-base",
+   "platform": "XIANYU",
+   "title": "全新 假面骑士龙骑真骨雕 全新未拆，雪梨纸未撕爽快包邮",
+   "price": 590,
+   "shipping": 0,
+   "condition": "全新",
+   "official": true,
+   "shopName": "影子2521",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1103532033187",
+   "area": "辽宁",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1103532033187.jpg"
   },
   {
    "modelKey": "ryuki-base",
@@ -304,7 +305,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1100382451794",
    "area": "浙江",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1100382451794.jpg"
   },
   {
@@ -320,40 +321,8 @@
    "itemUrl": "https://www.goofish.com/item?id=1099206082255",
    "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1099206082255.jpg"
-  },
-  {
-   "modelKey": "ryuki-base",
-   "platform": "XIANYU",
-   "title": "现货+万代+SHF龙骑真骨雕全新未拆封 包邮非偏远无七天无理由退换货服务，手办模型等玩具的特殊性商品一经售出，不退不换，原厂问题自理，无售后。盒控、验尸官请绕道！【签收注意事项】贵重物品，请一定要录开箱现场，一经签收，概",
-   "price": 580,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "闲鱼卖家",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1068862915292",
-   "area": "广东",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1068862915292.jpg"
-  },
-  {
-   "modelKey": "ryuki-base",
-   "platform": "XIANYU",
-   "title": "包邮普快 万代真骨雕假面骑士龙骑，日版，1/12比例。仅拆腰 膜还在，关节紧实。全配无损 卡片无拆普快包邮",
-   "price": 545,
-   "shipping": 0,
-   "condition": "仅开封",
-   "official": true,
-   "shopName": "东方美美的翻车鱼",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1102885985768",
-   "area": "山西",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1102885985768.jpg"
   },
   {
    "modelKey": "ryuki-base",
@@ -368,7 +337,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1097883900751",
    "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1097883900751.jpg"
   },
   {
@@ -384,7 +353,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1089239912326",
    "area": "浙江",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1089239912326.jpg"
   },
   {
@@ -400,8 +369,40 @@
    "itemUrl": "https://www.goofish.com/item?id=1101187527371",
    "area": "湖北",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1101187527371.jpg"
+  },
+  {
+   "modelKey": "ryuki-base",
+   "platform": "XIANYU",
+   "title": "现货+万代+SHF龙骑真骨雕全新未拆封 包邮非偏远无七天无理由退换货服务，手办模型等玩具的特殊性商品一经售出，不退不换，原厂问题自理，无售后。盒控、验尸官请绕道！【签收注意事项】贵重物品，请一定要录开箱现场，一经签收，概",
+   "price": 580,
+   "shipping": 0,
+   "condition": "全新",
+   "official": true,
+   "shopName": "闲鱼卖家",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1068862915292",
+   "area": "广东",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1068862915292.jpg"
+  },
+  {
+   "modelKey": "ryuki-base",
+   "platform": "XIANYU",
+   "title": "万代假面骑士真骨雕龙骑，初版日版，全配无损拆摆，下单后会拍摄 整体视频，指哪拍哪，默认盒损，售出不退不换，不出三无号。顺丰到付或广州三号线龙归地铁站附近自提",
+   "price": 520,
+   "shipping": 0,
+   "condition": "二手",
+   "official": true,
+   "shopName": "爱吃煎堆",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1104600608090",
+   "area": "广东",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1104600608090.jpg"
   },
   {
    "modelKey": "ryuki-base",
@@ -416,40 +417,8 @@
    "itemUrl": "https://www.goofish.com/item?id=1083836576748",
    "area": "河北",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1083836576748.jpg"
-  },
-  {
-   "modelKey": "ryuki-base",
-   "platform": "XIANYU",
-   "title": "万代+SHF+龙骑+基础形态+真骨雕+平成假面骑士+城户真司 +手办  全配无损 普快包邮 目测无太大中奖",
-   "price": 529,
-   "shipping": 0,
-   "condition": "二手",
-   "official": true,
-   "shopName": "ELITE57",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1104330340643",
-   "area": "陕西",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1104330340643.jpg"
-  },
-  {
-   "modelKey": "ryuki-base",
-   "platform": "XIANYU",
-   "title": "出真骨雕假面骑士龙骑，全配无损盒说全，成色目测正常，付款后可 补充全方位细节视频",
-   "price": 540,
-   "shipping": 0,
-   "condition": "二手",
-   "official": true,
-   "shopName": "高仓司今官",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1099695631572",
-   "area": "河南",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1099695631572.jpg"
   },
   {
    "modelKey": "ryuki-base",
@@ -464,8 +433,56 @@
    "itemUrl": "https://www.goofish.com/item?id=1104572544448",
    "area": "安徽",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1104572544448.jpg"
+  },
+  {
+   "modelKey": "ryuki-base",
+   "platform": "XIANYU",
+   "title": "出真骨雕假面骑士龙骑，全配无损盒说全，成色目测正常，付款后可 补充全方位细节视频",
+   "price": 540,
+   "shipping": 0,
+   "condition": "二手",
+   "official": true,
+   "shopName": "高仓司今官",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1099695631572",
+   "area": "河南",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1099695631572.jpg"
+  },
+  {
+   "modelKey": "ryuki-base",
+   "platform": "XIANYU",
+   "title": "万代+SHF+龙骑+基础形态+真骨雕+平成假面骑士+城户真司 +手办  全配无损 普快包邮 目测无太大中奖",
+   "price": 529,
+   "shipping": 0,
+   "condition": "二手",
+   "official": true,
+   "shopName": "ELITE57",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1104330340643",
+   "area": "陕西",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1104330340643.jpg"
+  },
+  {
+   "modelKey": "ryuki-base",
+   "platform": "XIANYU",
+   "title": "万代 S.H.Figuarts 真骨雕 假面骑士龙骑 全新未 拆封无雪梨纸普快包邮【品牌】:Bandai/万代【系列】:S.H.Figuarts 真骨雕制法【角色】:假面骑士龙骑【比例】:1/12【售后】:售出不退不议价",
+   "price": 565,
+   "shipping": 0,
+   "condition": "全新",
+   "official": true,
+   "shopName": "极速发货",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1097950056878",
+   "area": "重庆",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1097950056878.jpg"
   },
   {
    "modelKey": "ryuki-base",
@@ -480,40 +497,8 @@
    "itemUrl": "https://www.goofish.com/item?id=1080904174704",
    "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1080904174704.jpg"
-  },
-  {
-   "modelKey": "ryuki-base",
-   "platform": "XIANYU",
-   "title": "万代 S.H.Figuarts 真骨雕 假面骑士龙骑 全新未 拆封无雪梨纸普快包邮  【品牌】:Bandai/万代 【系列】:S.H.Figuarts 真骨雕制法 【角色】:假面骑士龙骑 【比例】:1/12  【售后】:",
-   "price": 570,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "极速发货",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1097950056878",
-   "area": "重庆",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1097950056878.jpg"
-  },
-  {
-   "modelKey": "ryuki-base",
-   "platform": "XIANYU",
-   "title": "万代 SHF 真骨雕 假面骑士龙骑 全新未拆封 现货直发商品售出不退换仅支持邮寄 顺丰包邮",
-   "price": 570,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "天衣无缝",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1104623096115",
-   "area": "天津",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1104623096115.jpg"
   },
   {
    "modelKey": "ryuki-base",
@@ -528,24 +513,40 @@
    "itemUrl": "https://www.goofish.com/item?id=1099896289382",
    "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1099896289382.jpg"
   },
   {
-   "modelKey": "ryuki-base",
+   "modelKey": "ryuki-survive-shf",
    "platform": "XIANYU",
-   "title": "日版 万代SHF真骨雕 假面骑士龙骑 全配无损 盒说全 感兴趣的话点“我想要”和我私聊吧～",
-   "price": 530,
+   "title": "shf生存龙骑 无盒 所见即所得 出售后不退不换 会打包但不 包运损 普快包邮 或+10发顺丰",
+   "price": 260,
    "shipping": 0,
    "condition": "二手",
    "official": true,
-   "shopName": "小班heiumi",
+   "shopName": "嗯嗯嗯嗯",
    "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1099918067316",
-   "area": "浙江",
+   "itemUrl": "https://www.goofish.com/item?id=1089109665913",
+   "area": "天津",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1099918067316.jpg"
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1089109665913.jpg"
+  },
+  {
+   "modelKey": "ryuki-shf",
+   "platform": "XIANYU",
+   "title": "（顺丰包邮）现货万代 SHF 龙骑 基础形态 真骨雕 平成假 面骑士 城户真司 手办不经我手，默认盒损，顺丰包邮平台直发只包全新未拆，中奖自负售出不退不换，拒绝到手刀",
+   "price": 585,
+   "shipping": 0,
+   "condition": "全新",
+   "official": true,
+   "shopName": "Atopos",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1101479519799",
+   "area": "云南",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1101479519799.jpg"
   },
   {
    "modelKey": "ryuki-shf",
@@ -560,7 +561,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1103845408912",
    "area": "江苏",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1103845408912.jpg"
   },
   {
@@ -576,7 +577,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1100885809707",
    "area": "上海",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1100885809707.jpg"
   },
   {
@@ -592,7 +593,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1102337894215",
    "area": "湖南",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1102337894215.jpg"
   },
   {
@@ -608,24 +609,8 @@
    "itemUrl": "https://www.goofish.com/item?id=1090487056268",
    "area": "上海",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1090487056268.jpg"
-  },
-  {
-   "modelKey": "ryuki-shf",
-   "platform": "XIANYU",
-   "title": "龙骑镜车shf 全配成色如图所见所得 盒控验尸官到手刀要求过 高者勿扰 粉丝包邮非偏远不议价 有磕碰如图 盒子不好",
-   "price": 510,
-   "shipping": 0,
-   "condition": "二手",
-   "official": true,
-   "shopName": "老陈的模型仓库一号店",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1103070773838",
-   "area": "江苏",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1103070773838.jpg"
   },
   {
    "modelKey": "ryuki-shf",
@@ -640,7 +625,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1095226899505",
    "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1095226899505.jpg"
   },
   {
@@ -656,8 +641,40 @@
    "itemUrl": "https://www.goofish.com/item?id=1100949857496",
    "area": "天津",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1100949857496.jpg"
+  },
+  {
+   "modelKey": "ryuki-shf",
+   "platform": "XIANYU",
+   "title": "龙骑镜车shf 全配成色如图所见所得 盒控验尸官到手刀要求过 高者勿扰 粉丝包邮非偏远不议价 有磕碰如图 盒子不好",
+   "price": 510,
+   "shipping": 0,
+   "condition": "二手",
+   "official": true,
+   "shopName": "老陈的模型仓库一号店",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1103070773838",
+   "area": "江苏",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1103070773838.jpg"
+  },
+  {
+   "modelKey": "ryuki-shf",
+   "platform": "XIANYU",
+   "title": "假面骑士 龙骑 白虎 shf 大牙 全配 腿关节通病 快递包普快",
+   "price": 375,
+   "shipping": 0,
+   "condition": "二手",
+   "official": true,
+   "shopName": "Kamen Rider shin",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1099088078269",
+   "area": "重庆",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1099088078269.jpg"
   },
   {
    "modelKey": "ryuki-shf",
@@ -672,7 +689,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1103249497333",
    "area": "广西",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1103249497333.jpg"
   },
   {
@@ -688,7 +705,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1054492532317",
    "area": "江苏",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1054492532317.jpg"
   },
   {
@@ -704,7 +721,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1096430450161",
    "area": "江苏",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1096430450161.jpg"
   },
   {
@@ -720,24 +737,8 @@
    "itemUrl": "https://www.goofish.com/item?id=1103458485059",
    "area": "湖南",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1103458485059.jpg"
-  },
-  {
-   "modelKey": "ryuki-shf",
-   "platform": "XIANYU",
-   "title": "假面骑士 龙骑 白虎 shf 大牙 全配 腿关节通病 快递包普快",
-   "price": 375,
-   "shipping": 0,
-   "condition": "二手",
-   "official": true,
-   "shopName": "Kamen Rider shin",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1099088078269",
-   "area": "重庆",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1099088078269.jpg"
   },
   {
    "modelKey": "faiz-shf",
@@ -752,7 +753,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1100838153185",
    "area": "江苏",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1100838153185.jpg"
   },
   {
@@ -768,7 +769,7 @@
    "itemUrl": "https://www.goofish.com/item?id=985897782797",
    "area": "江苏",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/985897782797.jpg"
   },
   {
@@ -784,24 +785,8 @@
    "itemUrl": "https://www.goofish.com/item?id=1093069628440",
    "area": "河南",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1093069628440.jpg"
-  },
-  {
-   "modelKey": "faiz-shf",
-   "platform": "XIANYU",
-   "title": "万代+假面骑士Faiz+555+加速形态+shf+1.0 全配无损 盒说全 关节紧 成色不错 如图 普快包邮",
-   "price": 230,
-   "shipping": 0,
-   "condition": "二手",
-   "official": true,
-   "shopName": "老许特摄玩具店",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1008260425966",
-   "area": "河南",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1008260425966.jpg"
   },
   {
    "modelKey": "blade-shf",
@@ -816,7 +801,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1101138998743",
    "area": "重庆",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1101138998743.jpg"
   },
   {
@@ -832,7 +817,7 @@
    "itemUrl": "https://www.goofish.com/item?id=1104281324596",
    "area": "河北",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1104281324596.jpg"
   },
   {
@@ -848,40 +833,24 @@
    "itemUrl": "https://www.goofish.com/item?id=1101139758688",
    "area": "重庆",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1101139758688.jpg"
   },
   {
    "modelKey": "blade-shf",
    "platform": "XIANYU",
-   "title": "全新运输未拆 万代 SHF 假面骑士剑 格连侍卫形态jack form 魂限定 格连橘前辈 升华形态 jack 方块格连 日版无掏底  标价包邮出，默认盒损 全新售出不退不换",
-   "price": 260,
+   "title": "万代正版假面骑士shf+假面骑士剑 假面骑士卡利斯shf+盒子比较旧 全新未拆+粉丝包邮 打包主页可优惠",
+   "price": 390,
    "shipping": 0,
    "condition": "全新",
    "official": true,
-   "shopName": "扎扎不是渣渣",
+   "shopName": "仓鼠商人小蛋卷专业回收",
    "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1074151612044",
-   "area": "江苏",
+   "itemUrl": "https://www.goofish.com/item?id=1101031052458",
+   "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1074151612044.jpg"
-  },
-  {
-   "modelKey": "blade-shf",
-   "platform": "XIANYU",
-   "title": "万代魂网络限定SHF假面骑士圣刃+Slash+音剑+大秦寺 1:++实物拍摄，全新未拆，包邮 2：玩具不是工艺品，盒控验尸官，要求高勿扰+ 3：有问题拍下前问，拍下后再问问题，提要求的一律解除交易，不要说包好点这种无脑的",
-   "price": 285,
-   "shipping": 0,
-   "condition": "全新",
-   "official": true,
-   "shopName": "陈伟霆目前为止最开心",
-   "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1073724915718",
-   "area": "河北",
-   "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1073724915718.jpg"
+   "fetchedAt": "2026-11-27 08:19",
+   "image": "models/live/1101031052458.jpg"
   },
   {
    "modelKey": "blade-shf",
@@ -896,24 +865,59 @@
    "itemUrl": "https://www.goofish.com/item?id=1101370410206",
    "area": "江西",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
-   "fetchedAt": "2026-11-27 15:33",
+   "fetchedAt": "2026-11-27 08:19",
    "image": "models/live/1101370410206.jpg"
   },
   {
-   "modelKey": "blade-shf",
+   "modelKey": "kuuga-mighty-55",
    "platform": "XIANYU",
-   "title": "日版 假面骑士 blade 剑 摩托车 shf 机车 全配无损 快递包普快",
-   "price": 268,
+   "title": "万代SHF真骨雕假面骑士空我50周年纪念版 全能形态 全新未 拆  代理版爽快包邮  发出后不退不换 考虑清楚再拍不保物流运损 可补差发顺丰 包邮默认普快",
+   "price": 510,
+   "shipping": 0,
+   "condition": "全新",
+   "official": true,
+   "shopName": "情的模玩小店",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1044003484031",
+   "area": "广东",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 15:33",
+   "image": "models/live/1044003484031.jpg",
+   "carriedFrom": "2026-11-27 15:33"
+  },
+  {
+   "modelKey": "kuuga-dragon-55",
+   "platform": "XIANYU",
+   "title": "万代 真骨雕 升华青龙空我 全新未拆封 默认顺丰到付 全新商品售出不退不换 不包中奖",
+   "price": 599,
+   "shipping": 0,
+   "condition": "全新",
+   "official": true,
+   "shopName": "芽衣我又饿了",
+   "wantCount": 0,
+   "itemUrl": "https://www.goofish.com/item?id=1087902153444",
+   "area": "广东",
+   "shippingNote": "闲鱼列表不含运费，以商品页为准",
+   "fetchedAt": "2026-11-27 15:33",
+   "image": "models/live/1087902153444.jpg",
+   "carriedFrom": "2026-11-27 15:33"
+  },
+  {
+   "modelKey": "kuuga-pegasus-55",
+   "platform": "XIANYU",
+   "title": "真骨雕空我天马 假面骑士空我 天马形态，全配无损，顺丰到付 感兴趣的话点“我想要”和我私聊吧～",
+   "price": 410,
    "shipping": 0,
    "condition": "二手",
    "official": true,
-   "shopName": "Kamen Rider shin",
+   "shopName": "高颜值香菇",
    "wantCount": 0,
-   "itemUrl": "https://www.goofish.com/item?id=1103340172425",
-   "area": "重庆",
+   "itemUrl": "https://www.goofish.com/item?id=1069973497096",
+   "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1103340172425.jpg"
+   "image": "models/live/1069973497096.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "blade-jack-shf",
@@ -929,7 +933,8 @@
    "area": "河南",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1068915687752.jpg"
+   "image": "models/live/1068915687752.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "blade-jack-shf",
@@ -945,7 +950,8 @@
    "area": "黑龙江",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1101403639630.jpg"
+   "image": "models/live/1101403639630.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "hibiki-base",
@@ -961,7 +967,8 @@
    "area": "上海",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1101291066692.jpg"
+   "image": "models/live/1101291066692.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "hibiki-base",
@@ -977,7 +984,8 @@
    "area": "河南",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1101467415744.jpg"
+   "image": "models/live/1101467415744.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "hibiki-base",
@@ -993,7 +1001,8 @@
    "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1101556118719.jpg"
+   "image": "models/live/1101556118719.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "hibiki-base",
@@ -1009,7 +1018,8 @@
    "area": "上海",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1088624856975.jpg"
+   "image": "models/live/1088624856975.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "hibiki-base",
@@ -1025,7 +1035,8 @@
    "area": "浙江",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1100186421463.jpg"
+   "image": "models/live/1100186421463.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "hibiki-base",
@@ -1041,7 +1052,8 @@
    "area": "安徽",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1103816348181.jpg"
+   "image": "models/live/1103816348181.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "hibiki-base",
@@ -1057,7 +1069,8 @@
    "area": "北京",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1097140819337.jpg"
+   "image": "models/live/1097140819337.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "hibiki-base",
@@ -1073,7 +1086,8 @@
    "area": "江苏",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1096135735169.jpg"
+   "image": "models/live/1096135735169.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "hibiki-shf",
@@ -1089,7 +1103,8 @@
    "area": "河南",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1061972848430.jpg"
+   "image": "models/live/1061972848430.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "kabuto-rider-20",
@@ -1105,7 +1120,8 @@
    "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1103093504054.jpg"
+   "image": "models/live/1103093504054.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "kabuto-rider-20",
@@ -1121,7 +1137,8 @@
    "area": "江苏",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1091124652636.jpg"
+   "image": "models/live/1091124652636.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "kabuto-dark",
@@ -1137,7 +1154,8 @@
    "area": "广东",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/935899850619.jpg"
+   "image": "models/live/935899850619.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "deno-sword",
@@ -1153,7 +1171,8 @@
    "area": "浙江",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1101909884957.jpg"
+   "image": "models/live/1101909884957.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   },
   {
    "modelKey": "deno-sword",
@@ -1169,7 +1188,8 @@
    "area": "上海",
    "shippingNote": "闲鱼列表不含运费，以商品页为准",
    "fetchedAt": "2026-11-27 15:33",
-   "image": "models/live/1103153376791.jpg"
+   "image": "models/live/1103153376791.jpg",
+   "carriedFrom": "2026-11-27 15:33"
   }
  ]
 }
