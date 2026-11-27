@@ -267,11 +267,21 @@ def grab(ctx, keyword, wait_ms=2600, scrolls=3):
 def export_state(ctx):
     STATE.parent.mkdir(parents=True, exist_ok=True)
     ctx.storage_state(path=str(STATE))
-    raw = STATE.read_bytes()
+
+    # 只保留抓取用得上的域名，并丢掉 localStorage（统计脚本塞了几百 KB，纯属噪声）。
+    # GitHub Actions 单个 Secret 上限 48 KB，未精简的 base64 会超限导致无法保存。
+    keep = (".goofish.com", "passport.goofish.com", ".taobao.com", "www.taobao.com")
+    full = json.loads(STATE.read_text(encoding="utf-8"))
+    slim = {"cookies": [c for c in full.get("cookies", []) if c.get("domain") in keep],
+            "origins": []}
+    raw = json.dumps(slim, ensure_ascii=False).encode("utf-8")
     b64 = base64.b64encode(raw).decode()
     (BASE / "tools" / "state.b64").write_text(b64, encoding="utf-8")
-    print("登录态已写入", STATE, "| 长度", len(raw), "字节")
-    print("Base64 版本 tools/state.b64（%d 字符），用于放进 GitHub Secrets" % len(b64))
+    print("登录态已写入", STATE, "| 长度", len(STATE.read_bytes()), "字节")
+    print("精简后 %d 个 cookie / %.1f KB" % (len(slim["cookies"]), len(raw) / 1024))
+    print("Base64 版本 tools/state.b64（%d 字符），可放进 GitHub Secrets" % len(b64))
+    if len(b64) > 48 * 1024:
+        print("!! 超过 Secret 48 KB 上限，需再精简")
 
 
 def do_login(p):
